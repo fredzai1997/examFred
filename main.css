@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+}
+
+                                /* Header */
+header{
+    width: 1536px;
+    height: 58px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .title
+{
+    background-color:#21f3e9;
+    width: 120px;
+    height: 58px;
+}
+
+header .title h5
+{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header .logo 
+{
+    width: 80px;
+    height: 58px;
+    background-color: #21212b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+header .logo  i
+{
+    font-size: 25px;
+    color: white;
+    margin: auto;
+
+   
+}
+
+                                /* Section */
+section{
+    width: 1536px;
+    height: 800px;
+    background-image: url(image/paladins.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    display: flex;
+    flex-direction: column;
+}
+
+                                /* Section_box */
+section .section_box
+{
+    width: 1176px;
+    height: 800px;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+}
+
+                                    /* Section_box logo_site */
+section .section_box .logo_site
+{
+    width: 1176px;
+    height: 120px;
+   display: flex;
+   justify-content: flex-start;
+   
+}
+section .section_box .logo_site img
+{
+    width: 200px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+                                /* Section_box section1 */
+
+section .section_box .section1
+{
+    width: 1176px;
+    height: 45px;
+    background-color: #a0a8b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .section_box .section1 p
+{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+section .section_box .section1 span
+{
+    color: yellow;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+                                /* Section_box section2 */
+section .section_box .section2
+{
+    width: 1170px;
+    height: 600px;
+    border: 2px #1badbf solid;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+                                /* Section_box section2 box1 */
+
+section .section_box .section2 .box1
+{
+    width: 1170px;
+    height: 300px;
+    background-image: url(image/paladinprice1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300%;
+}
+section .section_box .section2 .box1 .title
+{
+    width: 1170px;
+    height: 40px;
+    background-color: #01131c;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+section .section_box .section2 .box1 .title h4
+{
+   color: yellow;
+   text-transform: uppercase;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+section .section_box .section2 .box1 .buy
+{
+   width: 120px;
+   height: 120px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 1050px;
+   margin-top: 80px;
+    
+}
+section .section_box .section2 .box1 .buy button
+{
+   width: 120px;
+   height: 45px;
+   background-color: rgb(16, 214, 16);
+   text-align: center;
+   color: white;
+   border: none;
+   box-shadow: 5px 5px black rgba(0, 0, 0, 0.6);
+   font-size: 15px;
+   font-weight: bold;
+   text-transform: uppercase;   
+}
+section .section_box .section2 .box1 .buy h4
+{
+  color: #ffffff;
+  font-size: 20px;  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+section .section_box .section2 .box1 .footer
+{
+    width: 1170px;
+    height: 60px;
+    background-color: #2198a7;
+    margin-top: -10px;  
+    
+}
+
+section .section_box .section2 .box1 .footer p
+{
+    
+    color: white; 
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+                            /* Section_box section2 box2 */
+
+section .section_box .section2 .box2
+{
+    width: 50%;
+    height: 300px;
+    background-image: url(image/price2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+}
+section .section_box .section2 .box2 .title
+{
+    width: 100%;
+    height: 40px;
+    background-color: #01131c;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .section_box .section2 .box2 .title h4
+{
+   color: yellow;
+   text-transform: uppercase;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+section .section_box .section2 .box2 .footer
+{
+    width: 100%;
+    height: 50px;
+    background-color: #2198a7;
+    margin-top: 210px;   
+}
+
+section .section_box .section2 .box2 .footer p
+{
+    color: white; 
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+                                        /*Box_3 */
+
+section .section_box .section2 .box3
+{
+    width: 50%;
+    height: 300px;
+    background-image: url(image/price4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300%;
+    
+}
+section .section_box .section2 .box3 .title
+{
+    width: 100%;
+    height: 40px;
+    background-color: #01131c;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .section_box .section2 .box3 .title h4
+{
+   color: yellow;
+   text-transform: uppercase;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+section .section_box .section2 .box3 .footer
+{
+    width: 100%;
+    height: 50px;
+    background-color: #2198a7;
+    margin-top: 210px;   
+}
+
+section .section_box .section2 .box3 .footer p
+{
+    color: white; 
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
